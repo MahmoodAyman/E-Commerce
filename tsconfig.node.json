@@ -5,6 +5,7 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "types": ["vite-plugin-svgr/client"],
 
     /* Bundler mode */
     "moduleResolution": "Bundler",
@@ -12,6 +13,8 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
+
+    // Absoulte Path imports
 
     /* Linting */
     "strict": true,
